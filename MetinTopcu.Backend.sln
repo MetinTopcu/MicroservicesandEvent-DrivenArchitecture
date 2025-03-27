@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1656BF5-FBAE-42BB-A60B-7E2A4951AAE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D81077A1-A31A-4C3C-AC83-2BF00CCE8497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{03FAD10F-EA25-4422-A80F-DB884A29411E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{824EFA64-B835-4E4C-AADF-52849B3B7723}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7C3D2D1D-149C-4681-A414-32D004DA419C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{300316CE-9DFD-43FD-B3A6-C980496E3BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoggingMonitoring", "LoggingMonitoring", "{ABA15CB4-E35B-4BE1-A25C-45AE196202DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetinTopcu.Backend.APIGateway.API", "src\APIGateway\MetinTopcu.Backend.APIGateway.API\MetinTopcu.Backend.APIGateway.API.csproj", "{18780B9E-9E15-4859-B9F9-47B69586D7E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18780B9E-9E15-4859-B9F9-47B69586D7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18780B9E-9E15-4859-B9F9-47B69586D7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18780B9E-9E15-4859-B9F9-47B69586D7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18780B9E-9E15-4859-B9F9-47B69586D7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D81077A1-A31A-4C3C-AC83-2BF00CCE8497} = {E1656BF5-FBAE-42BB-A60B-7E2A4951AAE6}
+		{03FAD10F-EA25-4422-A80F-DB884A29411E} = {E1656BF5-FBAE-42BB-A60B-7E2A4951AAE6}
+		{824EFA64-B835-4E4C-AADF-52849B3B7723} = {E1656BF5-FBAE-42BB-A60B-7E2A4951AAE6}
+		{7C3D2D1D-149C-4681-A414-32D004DA419C} = {E1656BF5-FBAE-42BB-A60B-7E2A4951AAE6}
+		{300316CE-9DFD-43FD-B3A6-C980496E3BC1} = {E1656BF5-FBAE-42BB-A60B-7E2A4951AAE6}
+		{ABA15CB4-E35B-4BE1-A25C-45AE196202DF} = {E1656BF5-FBAE-42BB-A60B-7E2A4951AAE6}
+		{18780B9E-9E15-4859-B9F9-47B69586D7E7} = {03FAD10F-EA25-4422-A80F-DB884A29411E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6F5F744-C851-4E09-BD64-5CBF9CB6E5B9}
+	EndGlobalSection
+EndGlobal
