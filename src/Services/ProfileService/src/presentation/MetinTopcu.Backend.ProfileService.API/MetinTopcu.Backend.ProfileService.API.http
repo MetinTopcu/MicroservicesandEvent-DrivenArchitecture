@@ -1,0 +1,6 @@
+@MetinTopcu.Backend.ProfileService.API_HostAddress = http://localhost:5089
+
+GET {{MetinTopcu.Backend.ProfileService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
