@@ -14,4 +14,8 @@
     <Folder Include="DTOs\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Shared\MetinTopcu.Backend.Shared\MetinTopcu.Backend.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

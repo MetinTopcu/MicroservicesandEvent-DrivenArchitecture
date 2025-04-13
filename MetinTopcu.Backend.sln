@@ -31,13 +31,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{F5BF8B30-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{FEB2EE49-3D96-48FE-A9F7-85AD639D0180}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetinTopcu.Backend.ProfileService.Core", "src\Services\ProfileService\src\core\MetinTopcu.Backend.ProfileService.Core\MetinTopcu.Backend.ProfileService.Core.csproj", "{2AD2EBBD-AA7F-4F54-B9D8-50BC5CBBBF34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetinTopcu.Backend.ProfileService.Core", "src\Services\ProfileService\src\core\MetinTopcu.Backend.ProfileService.Core\MetinTopcu.Backend.ProfileService.Core.csproj", "{2AD2EBBD-AA7F-4F54-B9D8-50BC5CBBBF34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetinTopcu.Backend.ProfileService.Data", "src\Services\ProfileService\src\data\MetinTopcu.Backend.ProfileService.Data\MetinTopcu.Backend.ProfileService.Data.csproj", "{2968E3F9-7A71-407C-BC95-A84FE5FEDDDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetinTopcu.Backend.ProfileService.Data", "src\Services\ProfileService\src\data\MetinTopcu.Backend.ProfileService.Data\MetinTopcu.Backend.ProfileService.Data.csproj", "{2968E3F9-7A71-407C-BC95-A84FE5FEDDDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetinTopcu.Backend.ProfileService.Business", "src\Services\ProfileService\src\business\MetinTopcu.Backend.ProfileService.Business\MetinTopcu.Backend.ProfileService.Business.csproj", "{DD0D6C50-3AC4-4C71-8E7A-481A78D58B18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetinTopcu.Backend.ProfileService.Business", "src\Services\ProfileService\src\business\MetinTopcu.Backend.ProfileService.Business\MetinTopcu.Backend.ProfileService.Business.csproj", "{DD0D6C50-3AC4-4C71-8E7A-481A78D58B18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetinTopcu.Backend.ProfileService.API", "src\Services\ProfileService\src\presentation\MetinTopcu.Backend.ProfileService.API\MetinTopcu.Backend.ProfileService.API.csproj", "{29EC5488-4FBD-4A98-BDBB-765BB308CB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetinTopcu.Backend.ProfileService.API", "src\Services\ProfileService\src\presentation\MetinTopcu.Backend.ProfileService.API\MetinTopcu.Backend.ProfileService.API.csproj", "{29EC5488-4FBD-4A98-BDBB-765BB308CB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetinTopcu.Backend.Shared", "src\Shared\MetinTopcu.Backend.Shared\MetinTopcu.Backend.Shared.csproj", "{B6B1301A-E96C-48DA-ACA6-731150B9EAA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{29EC5488-4FBD-4A98-BDBB-765BB308CB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29EC5488-4FBD-4A98-BDBB-765BB308CB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29EC5488-4FBD-4A98-BDBB-765BB308CB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B1301A-E96C-48DA-ACA6-731150B9EAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B1301A-E96C-48DA-ACA6-731150B9EAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B1301A-E96C-48DA-ACA6-731150B9EAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B1301A-E96C-48DA-ACA6-731150B9EAA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{2968E3F9-7A71-407C-BC95-A84FE5FEDDDB} = {F5BF8B30-E7A8-42C6-A242-21ACFB252FD2}
 		{DD0D6C50-3AC4-4C71-8E7A-481A78D58B18} = {FEB2EE49-3D96-48FE-A9F7-85AD639D0180}
 		{29EC5488-4FBD-4A98-BDBB-765BB308CB3B} = {03536469-CE7B-425A-9D55-4F57D2B57DF9}
+		{B6B1301A-E96C-48DA-ACA6-731150B9EAA0} = {7C3D2D1D-149C-4681-A414-32D004DA419C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6F5F744-C851-4E09-BD64-5CBF9CB6E5B9}
